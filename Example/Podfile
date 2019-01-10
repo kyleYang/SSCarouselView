@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SSCarouselView_Example' do
+  pod 'SSCarouselView', :path => '../'
+
+  target 'SSCarouselView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
